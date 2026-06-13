@@ -97,19 +97,19 @@ function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@developer.com',
-      href: 'mailto:hello@developer.com',
+      value: 'karsayousef74@gmail.com',
+      href: 'mailto:karsayousef74@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+01026025061',
+      href: 'tel:+01026025061',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Cairo, Giza',
       href: '#',
     },
   ]
@@ -288,7 +288,7 @@ function Contact() {
                   <InputField
                     label="Your Name"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     value={formData.name}
                     error={errors.name}
                   />
@@ -296,7 +296,7 @@ function Contact() {
                     label="Your Email"
                     name="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="user@example.com"
                     value={formData.email}
                     error={errors.email}
                   />

@@ -54,24 +54,12 @@ function Skills() {
       skills: [
         { name: 'Git & GitHub', level: 90 },
         { name: 'Vite / Webpack', level: 85 },
-        { name: 'npm / Yarn', level: 90 },
+        { name: 'npm ', level: 90 },
         { name: 'VS Code', level: 95 },
         { name: 'ESLint / Prettier', level: 85 },
         { name: 'Jest / Testing', level: 75 },
       ],
-    },
-    {
-      title: 'Backend & APIs',
-      icon: Server,
-      skills: [
-        { name: 'REST APIs', level: 90 },
-        { name: 'GraphQL', level: 70 },
-        { name: 'Node.js Basics', level: 75 },
-        { name: 'Firebase', level: 80 },
-        { name: 'Authentication', level: 85 },
-        { name: 'API Integration', level: 90 },
-      ],
-    },
+    }
   ]
 
   // Additional tech stack icons
